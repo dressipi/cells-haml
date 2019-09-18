@@ -6,8 +6,8 @@ module Cell
     def template_options_for(_options)
       {
         template_class: ::Tilt::HamlTemplate,
-        escape_html:    false,
-        escape_attrs:   false,
+        escape_html:    true,
+        escape_attrs:   true,
         suffix:         "haml"
       }
     end
